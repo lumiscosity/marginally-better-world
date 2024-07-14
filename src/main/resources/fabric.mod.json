@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "mbworld",
+	"version": "${version}",
+	"name": "Marginally Better World",
+	"description": "Extra features to prettify your world",
+	"authors": [
+		"lumiscosity"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/mbworld",
+		"sources": "https://github.com/lumiscosity/mbworld",
+		"issues": "https://github.com/lumiscosity/mbworld/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/mbworld/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.lumiscosity.mbworld.MarginallyBetterWorld"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": ">=1.17",
+		"java": ">=16",
+		"fabric-api": "*"
+	}
+}
