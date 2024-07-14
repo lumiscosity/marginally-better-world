@@ -8,7 +8,7 @@ import net.minecraft.world.StructureWorldAccess;
 import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.util.FeatureContext;
 
-public abstract class FallenLogFeature extends Feature<FallenLogFeatureConfig> {
+public class FallenLogFeature extends Feature<FallenLogFeatureConfig> {
     public FallenLogFeature(Codec<FallenLogFeatureConfig> codec) {
         super(codec);
     }
